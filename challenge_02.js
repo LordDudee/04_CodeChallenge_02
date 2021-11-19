@@ -21,17 +21,17 @@ let alter1;
 
 name1 = prompt("Bitte den Namen eingeben");
 alter1 = prompt("Bitte das Alter angeben");
-// console.log(name1 + " ist " + alter1);
+console.log(name1 + " ist " + alter1);
 
 if (alter1<=5)
 { 
     console.log(name1 + " trinkt Milch.");
 }
-else if(alter1)
+else if(alter1<=12)
 {
     console.log(name1 + " trinkt Saft.");
 }
-else if(alter1)
+else if(alter1<=17)
 {
     console.log(name1 + " trinkt Cola.");
 }
