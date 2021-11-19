@@ -16,3 +16,7 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+
+name1 = prompt("Bitte den Namen eingeben");
+alter1 = prompt("Bitte das Alter angeben");
+console.log(name1 + " ist " + alter1);
