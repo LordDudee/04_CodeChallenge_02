@@ -21,7 +21,7 @@ let alter1;
 
 name1 = prompt("Bitte den Namen eingeben");
 alter1 = prompt("Bitte das Alter angeben");
-console.log(name1 + " ist " + alter1);
+// console.log(name1 + " ist " + alter1);
 
 if (alter1<=5)
 { 
@@ -35,7 +35,7 @@ else if(alter1<=17)
 {
     console.log(name1 + " trinkt Cola.");
 }
-else if(alter1>=17)
+else if(alter1>=18)
 {
     console.log(name1 + " trinkt Bier.");
 }
