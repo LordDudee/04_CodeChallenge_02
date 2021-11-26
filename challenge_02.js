@@ -10,32 +10,32 @@ folgende Getränkeauswahl in die Konsole aus :
 Alter 0-5 // Milch  --> age > 0 AND age < 6
 Alter 6-12 // Saft
 Alter 13-17 // Cola
-18 + // Wein
+18 + // Bier
 
 --> "Max trinkt Cola."
 
 /* Getränke-Challenge */
 
 let name1;
-let alter1;
+let age;
 
 name1 = prompt("Bitte den Namen eingeben");
-alter1 = prompt("Bitte das Alter angeben");
-// console.log(name1 + " ist " + alter1);
+age = prompt("Bitte das Alter angeben");
+// console.log(name1 + " ist " + age);
 
-if (alter1<=5)
+if (age <= 5)
 { 
     console.log(name1 + " trinkt Milch.");
 }
-else if(alter1<=12)
+else if(age <= 12)
 {
     console.log(name1 + " trinkt Saft.");
 }
-else if(alter1<=17)
+else if(age <= 17)
 {
     console.log(name1 + " trinkt Cola.");
 }
-else if(alter1>=18)
+else if(age >= 18)
 {
     console.log(name1 + " trinkt Bier.");
 }
