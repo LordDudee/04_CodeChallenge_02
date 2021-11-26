@@ -39,3 +39,7 @@ else if(age >= 18)
 {
     console.log(name1 + " trinkt Bier.");
 }
+else(age(),name1())
+{
+    console.log("Keine Ausgabe möglich!");
+}
