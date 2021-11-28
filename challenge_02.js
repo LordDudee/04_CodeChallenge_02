@@ -23,6 +23,8 @@ name1 = prompt("Bitte den Namen eingeben");
 age = prompt("Bitte das Alter angeben");
 // console.log(name1 + " ist " + age);
 
+/***  Versuch mit if, else if ....else ***/
+
 if (age <= 5)
 { 
     console.log(name1 + " trinkt Milch.");
@@ -39,7 +41,23 @@ else if(age >= 18)
 {
     console.log(name1 + " trinkt Bier.");
 }
-else(age(),name1())
-{
-    console.log("Keine Ausgabe möglich!");
-}
+// else(age(),name1())
+// {
+//     console.log("Keine Ausgabe möglich!");
+// }
+
+
+/** Versuch mit while */
+// while (age <= 5) {
+//     console.log(name1 + " trinkt Milch.");
+// }
+// while (age <= 12) {
+//     console.log(name1 + " trinkt Saft.");
+// }
+// while (age <= 17) {
+//     console.log(name1 + " trinkt Cola.");
+// }
+// while (age >= 18) {
+//     console.log(name1 + " trinkt Bier.");
+// }
+
