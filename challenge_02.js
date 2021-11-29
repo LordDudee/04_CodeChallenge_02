@@ -20,27 +20,48 @@ let name1;
 let age;
 
 name1 = prompt("Bitte den Namen eingeben");
-age = prompt("Bitte das Alter angeben");
+age = parseInt(prompt("Bitte das Alter angeben")); // "2"  --> 2
 // console.log(name1 + " ist " + age);
+
+/****** Lösung Herr Schmidt*******/
+
+switch (true) {
+    case (age >= 0) && (age <= 5):
+        console.log(name1 + " trinkt Milch.");
+        break;
+    case (age >= 6) && (age <= 12):
+        console.log(name1 + " trinkt Saft.");
+        break;
+    case (age >= 13) && (age <= 17):
+        console.log(name1 + " trinkt Cola.");
+        break;
+    case (age >=18) && (age <= 150):
+        console.log(name1 + " trinkt Bier.");
+        break;
+    default:
+        console.log("Bitte Tee trinken!")
+        break;
+}
+
 
 /***  Versuch mit if, else if ....else ***/
 
-if (age <= 5)
-{ 
-    console.log(name1 + " trinkt Milch.");
-}
-else if(age <= 12)
-{
-    console.log(name1 + " trinkt Saft.");
-}
-else if(age <= 17)
-{
-    console.log(name1 + " trinkt Cola.");
-}
-else if(age >= 18)
-{
-    console.log(name1 + " trinkt Bier.");
-}
+// if (age <= 5)
+// { 
+//     console.log(name1 + " trinkt Milch.");
+// }
+// else if(age <= 12)
+// {
+//     console.log(name1 + " trinkt Saft.");
+// }
+// else if(age <= 17)
+// {
+//     console.log(name1 + " trinkt Cola.");
+// }
+// else if(age >= 18)
+// {
+//     console.log(name1 + " trinkt Bier.");
+// }
 // else(age(),name1())
 // {
 //     console.log("Keine Ausgabe möglich!");
